@@ -7,11 +7,11 @@ You can choose to log on any of these machines to do your work.
 
 ## How to log on if you are using Windows
 We will use a tool named PuTTY. There are other tools available but let's start with PuTTY. PuTTY can be downloaded [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe).
-Once open PuTTY, enter harry.cs.loyola.edu under Host Name.
+Once open PuTTY, enter **harry.cs.loyola.edu** under Host Name and hit **Open**
 
 ![sc0](putty00.JPG)
 
-You you log on to the machine for the first time, you may see this message. Just hit Accept.
+You you log on to the machine for the first time, you may see this message. Just hit **Accept**.
 
 ![sc1](putty01.JPG)
 
@@ -28,7 +28,7 @@ After all, you will get to this screen.
 ![sc4](putty04.JPG)
 
 ## How to log on if you are a Macs/Linux user
-Mac and Linux users can use the terminal app under Utilities to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
+Mac and Linux users can use the **terminal app** under **Utilities** to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
 
 ```
  hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@ron.cs.loyola.edu

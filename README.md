@@ -1,25 +1,34 @@
 ## Overview
 
-This guide will show you how to connect to a Linux server and introduce you to to the Linux environment (shell/terminal).
-We name our linux machines after characters and locations from the Harry Potter books and movies.  They are harry, ron, hermione, lupin, crookshanks, Bellatrix, Dumbledore, draco, snape, luna, ginny, Neville, peeves, and mcgonagall. The machines are physically located in the Linux Lab (DS 130)
-You can choose to log on any of these machine to do your work.
+This guide will show you how to connect to a Linux machine and introduce you to to the Linux environment (shell/terminal).
+We name our Linux machines after characters and locations from the Harry Potter books and movies.  They are harry, ron, hermione, lupin, crookshanks, Bellatrix, Dumbledore, draco, snape, luna, ginny, Neville, peeves, and mcgonagall. The machines are physically located in the Linux Lab (DS 130)
+You can choose to log on any of these machines to do your work.
 
 
 ## How to log on if you are using Windows
 We will use a tool named PuTTY. There are other tools available but let's start with PuTTY. PuTTY can be downloaded [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe).
 Once open PuTTY, enter harry.cs.loyola.edu under Host Name.
 
-Type in your userid
-
-
-Hit "Return/Enter" and type in your password. Please note that your password will not show as you type it in
+![sc0](putty00.JPG)
 
 You you log on to the machine for the first time, you may see this message.
 
+![sc1](putty01.JPG)
+
+Type in your userid
+
+![sc2](putty02.JPG)
+
+Hit "Return/Enter" and type in your password. Please note that your password will not show as you type it in
+
+![sc3](putty03.JPG)
+
 After all, you will get to this screen.
 
+![sc4](putty04.JPG)
+
 ## How to log on if you are a Macs/Linux user
-Mac and Linux users can use terminal app under Utilities to connect to any of the machine using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
+Mac and Linux users can use the terminal app under Utilities to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
 
 ```
  hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@ron.cs.loyola.edu
@@ -53,9 +62,9 @@ hdbui@ron:~$
 
 ```
 
-## Once you login, you can try out a few basic commands. You will probally see these commands in CS 266
+## Once you log on, you can try out a few basic commands. You will probably see these commands in CS 266
 
-# uname
+### uname
 Display system information
 
 ```
@@ -65,7 +74,7 @@ hdbui@ron:~$ uname -r
 5.19.0-41-generic
 ```
 
-# pwd
+### pwd
 Show current working director
 
 ```
@@ -73,7 +82,7 @@ hdbui@ron:~$ pwd
 /home/hdbui
 ```
 
-# ls
+### ls
 
 List what inside a directory
 
@@ -87,7 +96,7 @@ a.out  Desktop	  git-runner	me4.c	 newtest    Templates
 awk    Documents  hello.c	Music	 Pictures   test.c
 ```
 
-# cd
+### cd
 
 Navigate to a directory
 
@@ -97,7 +106,7 @@ hdbui@ron:Files$ ls
 foo  foobar
 ```
 
-# cd ..
+### cd ..
 
 Navigate back one directory
 
@@ -109,7 +118,7 @@ hdbui@ron:~$ pwd
 /home/hdbui
 ```
 
-# mkdir
+### mkdir
 
 Create a directory
 ```
@@ -119,7 +128,7 @@ hdbui@ron:Files$ ls
 code  foo  foobar
 ```
 
-# cd ~
+### cd ~
 
 Go back to your home directory
 
@@ -132,7 +141,7 @@ hdbui@ron:~$ pwd
 /home/hdbui
 ```
 
-# date
+### date
 
 Date and time
 
@@ -140,7 +149,7 @@ Date and time
 hdbui@ron:~$ date
 Thu Jan 18 10:20:05 AM EST 2024
 ```
-# who
+### who
 
 Show who is currently using the system
 
@@ -153,7 +162,7 @@ cth105   pts/10       2023-04-24 11:38 (jakes-imac.ad.wiu.edu)
 mflll    pts/13       2023-05-19 16:56 (:4)
 hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
 
-# who am i
+### who am i
 
 Your username/userid/handle
 

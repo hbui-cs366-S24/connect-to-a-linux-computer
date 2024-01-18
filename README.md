@@ -11,7 +11,7 @@ Once open PuTTY, enter harry.cs.loyola.edu under Host Name.
 
 ![sc0](putty00.JPG)
 
-You you log on to the machine for the first time, you may see this message.
+You you log on to the machine for the first time, you may see this message. Just hit Accept.
 
 ![sc1](putty01.JPG)
 
